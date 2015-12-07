@@ -10,6 +10,46 @@
       "enum": ["full-width", "half-width", "both"],
       "default": "both",
       "editorOnly": true
-    }
-  }
+    },
+    "_graphic": {
+          "type":"object",
+          "required":true,
+          "title": "Graphic",
+          "properties":{
+            "alt": {
+              "type":"string",
+              "required":false,
+              "default": "",
+              "title": "Alternative Text",
+              "inputType": "Text",
+              "validators": [],
+              "help": "The alternative text for this image"
+            },
+            "large": {
+              "type":"string",
+              "required":true,
+              "default": "",
+              "inputType": "Asset:image",
+              "validators": ["required"],
+              "help": "The large sized image for desktop devices"
+            },
+            "small": {
+              "type":"string",
+              "required":true,
+              "default": "",
+              "inputType": "Asset:image",
+              "validators": ["required"],
+              "help": "The small sized image for mobile devices"
+            },
+            "attribution": {
+              "type":"string",
+              "required":false,
+              "default": "",
+              "inputType": "Text",
+              "validators": [],
+              "help": "Text to be displayed as an attribution"
+            }
+          }
+        }
+     }
 }
