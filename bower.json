@@ -1,15 +1,16 @@
 {
-    "name": "adapt-submit",
-    "repository": "https://github.com/harsh-chhabra-smartbuzz/adapt-submit",
-    "version": "2.0.0",
-    "homepage": "https://github.com/harsh-chhabra-smartbuzz/adapt-submit",
-    "description": "This is description of the component",
-    "displayName": "Single Submit",
-    "main": "/js/adapt-submit.js",
-    "component": "submit",
-    "keywords": [
-        "adapt-Submit",
-        "adapt-components"
-    ],
-    "license": "GPLv3"
+  "name": "adapt-submit",
+  "version": "2.0.4",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/harsh-chhabra-smartbuzz/adapt-submit",
+  "displayName" : "Single Submit",
+  "extension" : "submit",
+  "description": "An extension to submit the assesment on single click",
+  "main": "/js/adapt-submit.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_tutor"
 }

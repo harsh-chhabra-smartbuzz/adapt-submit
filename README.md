@@ -1,4 +1,3 @@
-adapt-singleSubmit
-================
+adapt-submit
 
-Article single submit button
+/// This is advanced version
